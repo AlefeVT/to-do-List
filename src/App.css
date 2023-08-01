@@ -102,3 +102,23 @@ select {
 .filter-options div {
   flex: 1 1 0;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .app {
+    margin: 0 auto 50px;
+    padding: 10px;
+  }
+
+  .filter-options {
+    flex-direction: column;
+  }
+
+  .filter-options div {
+    margin-bottom: 10px;
+  }
+}
